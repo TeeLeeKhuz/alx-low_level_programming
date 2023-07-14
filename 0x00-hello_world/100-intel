@@ -1,7 +1,4 @@
 #!/bin/bash
-# Get the C file name from the environment variable $CFILE
 c_file="$CFILE"
-# Generate the output file name by replacing the extension with .s
 output_file="${c_file%.*}.s"
-# Use gcc with the -S flag to generate assembly code in Intel syntax
 gcc -S -masm=intel "$c_file" -o "$output_file"
