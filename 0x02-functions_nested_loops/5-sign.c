@@ -22,6 +22,6 @@ return (0);
 else
 {
 _putchar('-');
-return _putchar('(')-1_putchar('(');
+return -1;
 }
 }
