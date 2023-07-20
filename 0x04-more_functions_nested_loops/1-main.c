@@ -1,4 +1,4 @@
-#include "1-main.h"  /* Include the appropriate header file that contains the _isdigit function */
+#include "1-main.h"
 #include <stdio.h>
 /**
 * main - Check the _isdigit function.
