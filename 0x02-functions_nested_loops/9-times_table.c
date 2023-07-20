@@ -28,16 +28,14 @@ void times_table(void)
                 }
             }
 
-            if (result < 10)
+            _putchar((result / 10) + '0');
+            _putchar((result % 10) + '0');
+
+            if (col != 9)
             {
+                _putchar(',');
                 _putchar(' ');
             }
-            else
-            {
-                _putchar((result / 10) + '0');
-            }
-
-            _putchar((result % 10) + '0');
         }
         _putchar('\n');
     }
