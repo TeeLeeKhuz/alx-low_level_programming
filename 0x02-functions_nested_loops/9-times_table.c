@@ -11,17 +11,20 @@ for (col = 0; col <= 9; col++)
 {
 result = row * col;
 if (col == 0)
+{
 _putchar('0');
-else if (result < 10)
-_putchar(' ');
+}
 else
-_putchar((result / 10) + '0');
-_putchar((result % 10) + '0');
-if (col != 9)
 {
 _putchar(',');
 _putchar(' ');
+if (result < 10)
+{
+_putchar(' ')
 }
+}
+_putchar((result / 10) + '0');
+_putchar((result % 10) + '0');
 }
 _putchar('\n');
 }
