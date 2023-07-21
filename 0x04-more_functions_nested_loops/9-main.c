@@ -1,6 +1,7 @@
+#include <stdio.h>
 #include "main.h"
 /**
-* main - check the code
+* main - Fizz-Buzz test program.
 *
 * Return: Always 0.
 */
