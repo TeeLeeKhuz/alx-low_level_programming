@@ -14,10 +14,7 @@ int _strlen(char *s);
 void puts_half(char *str)
 {
 int length = _strlen(str);
-int start_index = (length + 1) / 2;
-/**
- * Calculate the start index for the second half
-*/
+int start_index = (length + 1) / 2; /* Calculate start index for second half */
 while (str[start_index] != '\0')
 {
 _putchar(str[start_index]);
