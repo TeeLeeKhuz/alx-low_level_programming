@@ -8,4 +8,6 @@ void print_rev(char *s);
 void rev_string(char *s);
 /* Function prototype for puts2 */
 void puts2(char *str);
+/* Function prototype for puts_half */
+void puts_half(char *str);
 #endif /* MAIN_H */
