@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "main.h"
 /**
 * main - check the code
@@ -6,8 +7,9 @@
 */
 int main(void)
 {
-char *str;
-str = "I do not fear computers. I fear the lack of them - Isaac Asimov";
-_puts(str);
+char *str = "My first strlen!";
+int len;
+len = _strlen(str); /* Function call to _strlen using its prototype from main.h */
+printf("%d\n", len);
 return (0);
 }
