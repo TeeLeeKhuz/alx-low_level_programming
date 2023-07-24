@@ -10,4 +10,6 @@ void rev_string(char *s);
 void puts2(char *str);
 /* Function prototype for puts_half */
 void puts_half(char *str);
+/* Function prototype for print_array */
+void print_array(int *a, int n);
 #endif /* MAIN_H */
