@@ -1,5 +1,7 @@
 #ifndef MAIN_H
 #define MAIN_H
-/* Function prototype for _strlen */
-int _strlen(char *s);
+/* Function prototype for _putchar */
+int _putchar(char c);
+/* Function prototype for print_rev */
+void print_rev(char *s);
 #endif /* MAIN_H */
