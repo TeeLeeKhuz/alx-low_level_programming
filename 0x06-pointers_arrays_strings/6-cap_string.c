@@ -13,9 +13,9 @@ int i;
 for (i = 0; separators[i] != '\0'; i++)
 {
 if (ch == separators[i])
-return (true);
+return true;
 }
-return (false);
+return false;
 }
 char *cap_string(char *str)
 {
