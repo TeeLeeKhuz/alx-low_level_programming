@@ -1,4 +1,6 @@
 #ifndef MAIN_H
 #define MAIN_H
-char *string_toupper(char *str);
+#include <stdbool.h>
+bool is_separator(char ch);
+char *cap_string(char *str);
 #endif /* MAIN_H */
