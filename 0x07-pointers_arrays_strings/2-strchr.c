@@ -16,5 +16,5 @@ if (*s == c)
 return (s);
 s++;}
 /* Add a return value for when the character is not found */
-return NULL;
+return (NULL);
 }
