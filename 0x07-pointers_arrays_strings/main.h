@@ -9,14 +9,13 @@
 */
 int _putchar(char c);
 /**
-* _memset - fills the first n bytes of the memory area pointed to by s
-*           with the constant byte b
-* @s: Pointer to the memory area
-* @b: Constant byte to be filled
-* @n: Number of bytes to be filled
+* _memcpy - copies n bytes from memory area src to memory area dest
+* @dest: Pointer to the destination memory area
+* @src: Pointer to the source memory area
+* @n: Number of bytes to copy
 *
-* Return: Pointer to the memory area s
+* Return: Pointer to the destination memory area (dest)
 */
-char *_memset(char *s, char b, unsigned int n);
+char *_memcpy(char *dest, char *src, unsigned int n);
 /* Add other function prototypes here if needed */
 #endif /* MAIN_H */
