@@ -1,5 +1,5 @@
 #include "main.h"
-#include <stddef.h> /* Add the <stddef.h> header for NULL */
+#include <stddef.h>
 /**
 * _strchr - locates a character in a string
 * @s: The string to search
@@ -14,7 +14,9 @@ while (*s != '\0')
 {
 if (*s == c)
 return (s);
-s++;}
-/* Add a return value for when the character is not found */
-return (NULL);
+s++;
+}
+if (*s == c)
+return (s);
+return NULL;
 }
