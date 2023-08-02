@@ -11,7 +11,7 @@ int _pow_recursion(int x, int y)
 /* Error condition: If y is lower than 0, return -1. */
 if (y < 0)
 return (-1);
-/* Base case: If y is 0, return 1 (any number raised to the power of 0 is 1). */
+/* Base case: If y is 0, return 1 (any number raised to the power of 0 is 1) */
 if (y == 0)
 return (1);
 /* Recursively call the function to calculate the power. */
