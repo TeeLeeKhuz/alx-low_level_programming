@@ -1,5 +1,3 @@
-#ifndef MAIN_H
-#define MAIN_H
 /* Function prototype for _putchar */
 int _putchar(char c);
 /* Function prototype for _print_rev_recursion */
@@ -18,4 +16,3 @@ int is_prime_number(int n);
 int is_palindrome(char *s);
 /* Function prototype for wildcmp */
 int wildcmp(char *s1, char *s2);
-#endif /* MAIN_H */
